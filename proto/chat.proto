@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service ChatRoom {
+  rpc joinRoom(JoinRequest) returns (stream ChatMessage);
+  rpc sendMessage(ChatMessage) returns (MessageAck);
+}
+
+message JoinRequest {}
+
+message ChatMessage {
+  string msg = 1;
+}
+
+message MessageAck {}

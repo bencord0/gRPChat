@@ -1,0 +1,24 @@
+{
+  "name": "gRPChat",
+  "version": "0.0.1",
+  "description": "A toy chat server/client based on gRPC.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencord0/gRPChat.git"
+  },
+  "keywords": [
+    "grpc",
+    "chat"
+  ],
+  "author": "Ben Cordero <bencord0@condi.me>",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/bencord0/gRPChat/issues"
+  },
+  "homepage": "https://github.com/bencord0/gRPChat#readme",
+  "dependencies": {
+    "grpc": "^1.0.0",
+    "terminal-kit": "^0.24.26"
+  }
+}
