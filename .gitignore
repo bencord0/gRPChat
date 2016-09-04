@@ -35,3 +35,18 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Python packages
+*.py[co]
+*.whl
+__pycache__
+
+# grpcio
+*_pb2.py
+
+# Gentoo packages
+*.xpak
+*.xpak.tar.bz2
+
+# Editor files
+*.swp

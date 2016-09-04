@@ -1,0 +1,7 @@
+grpcio:
+  build: .
+  dockerfile: dockerfiles/Dockerfile.grpcio
+  volumes:
+    - "/usr/portage"
+    - "./python:/app"
+  command: /app/build-grpc.sh

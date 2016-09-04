@@ -17,7 +17,7 @@
 
 const grpc = require('grpc');
 
-const chat_proto_path = __dirname + '/proto/chat.proto';
+const chat_proto_path = __dirname + '/../proto/chat.proto';
 const chat_proto = grpc.load(chat_proto_path);
 
 const the_room = new Array();

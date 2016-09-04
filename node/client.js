@@ -16,7 +16,7 @@
 */
 
 const grpc = require('grpc');
-const chat_proto_path = __dirname + '/proto/chat.proto';
+const chat_proto_path = __dirname + '/../proto/chat.proto';
 const chat_proto = grpc.load(chat_proto_path);
 
 const term = require('terminal-kit').terminal;

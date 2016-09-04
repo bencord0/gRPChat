@@ -1,0 +1,7 @@
+protobuf:
+  build: .
+  dockerfile: dockerfiles/Dockerfile.protobuf
+  volumes:
+    - "/usr/portage:/usr/portage"
+    - ".:/app"
+  command: /app/python/build-protobuf.sh

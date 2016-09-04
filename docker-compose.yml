@@ -1,0 +1,7 @@
+grpchat:
+  build: .
+  dockerfile: dockerfiles/Dockerfile
+  volumes:
+    - "/usr/portage:/usr/portage"
+    - "./python:/app"
+  command: pypy /app/server.py

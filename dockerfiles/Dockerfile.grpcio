@@ -1,0 +1,8 @@
+FROM bencord0/pypy
+
+WORKDIR /app
+
+RUN pypy -m pip install -U cython
+RUN pypy -m pip install -U grpcio grpcio-tools
+
+ADD proto /proto
